@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <id value="ExampleAllergyIntoleranceSulfonamideFR"/>
+  <language value="fr-BE"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><p class="res-header-id"><b>Generated Narrative: AllergyIntolerance ExampleAllergyIntoleranceSulfonamideFR</b></p><a name="ExampleAllergyIntoleranceSulfonamideFR"> </a><a name="hcExampleAllergyIntoleranceSulfonamideFR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr-BE</p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}">Confirmed</span></p><p><b>type</b>: Allergy</p><p><b>category</b>: Medication</p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 91939003}">Allergie aux sulfamides</span></p><p><b>patient</b>: <a href="Patient-ExampleBelgianPatientFrench.html">Marie Lemaire  Female, DoB: 1992-08-23 ( https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin#98765432109)</a></p><p><b>recordedDate</b>: 2021-09-15</p><p><b>note</b>: </p><blockquote><div><p>Reaction allergique confirmee aux sulfamides. Eviter toute prescription de cette classe de medicaments.</p>
+</div></blockquote></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
+      <code value="confirmed"/>
+    </coding>
+  </verificationStatus>
+  <type value="allergy"/>
+  <category value="medication"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="91939003"/>
+      <display value="Allergy to sulfonamide"/>
+    </coding>
+    <text value="Allergie aux sulfamides"/>
+  </code>
+  <patient>
+    <reference value="Patient/ExampleBelgianPatientFrench"/>
+  </patient>
+  <recordedDate value="2021-09-15"/>
+  <note>
+    <text value="Reaction allergique confirmee aux sulfamides. Eviter toute prescription de cette classe de medicaments."/>
+  </note>
+</AllergyIntolerance>

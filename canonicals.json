@@ -1,0 +1,14 @@
+[{
+  "id" : "pipeline-test",
+  "type" : "ImplementationGuide",
+  "url" : "https://hl7-be.github.io/pipeline-test/ImplementationGuide/pipeline-test",
+  "version" : "0.1.0",
+  "name" : "PipelineTestIG"
+},
+{
+  "id" : "be-condition-codes",
+  "type" : "ValueSet",
+  "url" : "https://hl7-be.github.io/pipeline-test/ValueSet/be-condition-codes",
+  "version" : "0.1.0",
+  "name" : "BelgianConditionCodesSNOMED"
+}]

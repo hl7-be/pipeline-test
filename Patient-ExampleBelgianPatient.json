@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Patient",
+  "id" : "ExampleBelgianPatient",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient ExampleBelgianPatient</b></p><a name=\"ExampleBelgianPatient\"> </a><a name=\"hcExampleBelgianPatient\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jean Dupont  Male, DoB: 1985-04-12 ( https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin#12345678901)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Rue de la Loi 16 Brussels 1000 BE </td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin",
+    "value" : "12345678901"
+  }],
+  "name" : [{
+    "family" : "Dupont",
+    "given" : ["Jean"]
+  }],
+  "gender" : "male",
+  "birthDate" : "1985-04-12",
+  "address" : [{
+    "line" : ["Rue de la Loi 16"],
+    "city" : "Brussels",
+    "postalCode" : "1000",
+    "country" : "BE"
+  }]
+}

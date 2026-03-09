@@ -1,0 +1,26 @@
+PipelineTestIG
+=========================================
+
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/work/fsh-generated/resources/AllergyIntolerance-ExampleAllergyIntoleranceSulfonamide.json: line 24, col 4, Error - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+/work/fsh-generated/resources/AllergyIntolerance-ExampleAllergyIntoleranceSulfonamideFR.json: line 25, col 4, Error - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+/work/fsh-generated/resources/Condition-ExampleConditionAbdominalPain.json: line 30, col 4, Error - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+/work/fsh-generated/resources/Condition-ExampleConditionAbdominalPainFR.json: line 31, col 4, Error - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+/work/fsh-generated/resources/Condition-ExampleConditionAtrialSeptalDefect.json: line 30, col 4, Error - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+/work/fsh-generated/resources/Condition-ExampleConditionDiabetesFR.json: line 31, col 4, Error - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+/work/fsh-generated/resources/Condition-ExampleConditionHypertensionFR.json: line 31, col 4, Error - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+/work/fsh-generated/resources/ImplementationGuide-pipeline-test.json: line 1, col 9469, Error - No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters' (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-pipeline-test.json: line 1, col 2967, Warning - The ImplementationGuide uses package hl7.fhir.be.medication#1.0.0 released on 2022-05-31, but the most recent appropriate version is 1.1.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/work/fsh-generated/resources/ImplementationGuide-pipeline-test.json: line 1, col 3163, Warning - The ImplementationGuide uses package hl7.fhir.be.vaccination#1.1.1 released on 2025-03-24, but the most recent appropriate version is 1.1.2. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/work/fsh-generated/resources/ImplementationGuide-pipeline-test.json: line 1, col 4347, Warning - The ImplementationGuide uses package hl7.fhir.be.patient-care#1.0.0 released on 2025-05-08, but the most recent appropriate version is 1.1.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/work/fsh-generated/resources/Patient-ExampleBelgianPatient.json: line 6, col 79, Warning - No definition could be found for URL value 'https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin' (INVALID)
+/work/fsh-generated/resources/Patient-ExampleBelgianPatientFrench.json: line 7, col 79, Warning - No definition could be found for URL value 'https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin' (INVALID)
+/work/fsh-generated/resources/ValueSet-be-condition-codes.json: line 1, col 2368, Info - The concepts in the value set include have not been validated because the terminology server https://apps.health.belgium.be/ontoserver/fhir does not support batch validation (tests version < 1.7.8) (BUSINESSRULE)
+/work/fsh-generated/resources/ValueSet-be-condition-codes.json: line 0, col 0, Warning - Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided. (EXCEPTION)
+
+err = 8, warn = 11, info = 1
+IG Publisher Version: 2.1.2

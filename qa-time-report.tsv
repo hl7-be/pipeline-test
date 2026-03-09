@@ -1,0 +1,26 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-pipeline-test.json	8853	-	0	0	0	0	0	0	16	102	0	0	0	0	0	0	0	1	0	0	87	73	0	0	0	2	0	2
+fsh-generated/resources/AllergyIntolerance-ExampleAllergyIntoleranceSulfonamide.json	787	25	0	0	1	0	0	0	0	1398	0	0	0	0	0	0	0	0	0	0	8	11	0	0	1	0	0	0
+fsh-generated/resources/AllergyIntolerance-ExampleAllergyIntoleranceSulfonamideFR.json	1006	25	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	9	8	0	0	0	0	0	0
+fsh-generated/resources/Condition-ExampleConditionAbdominalPain.json	889	23	0	0	1	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	6	8	0	0	0	0	0	0
+fsh-generated/resources/Condition-ExampleConditionAbdominalPainFR.json	1091	34	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	9	6	0	0	0	0	0	0
+fsh-generated/resources/Condition-ExampleConditionAtrialSeptalDefect.json	892	28	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	7	5	0	0	0	0	0	0
+fsh-generated/resources/Condition-ExampleConditionDiabetesFR.json	1050	17	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	9	6	0	0	0	0	0	0
+fsh-generated/resources/Condition-ExampleConditionHypertensionFR.json	1079	27	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	0	9	6	0	0	0	0	0	0
+fsh-generated/resources/Patient-ExampleBelgianPatient.json	513	9	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	5	10	0	0	0	0	0	0
+fsh-generated/resources/Patient-ExampleBelgianPatientFrench.json	808	6	0	0	0	0	0	0	1	42	0	0	0	0	0	0	0	0	0	0	6	5	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-be-condition-codes.json	1161	4	0	0	0	0	1	0	0	2471	0	0	0	0	0	0	0	0	0	0	9	1345	0	0	0	1	0	0
+/input/includes/menu.xml	919	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/includes/dmn.css	838	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/includes/dmn2html.xslt	6208	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	801	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/data/features.yml	5	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/downloads.xml	1287	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	26	0	0	0	0	0	0
+/input/pagecontent/changes.xml	457	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0
+/input/pagecontent/spec.md	56	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/background.xml	271	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	23	0	0	0	0	0	0
+/input/pagecontent/index.xml	2485	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	23	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	46	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	5751	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0

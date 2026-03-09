@@ -1,0 +1,32 @@
+# pipeline-test#0.1.0: Pipeline Test IG - Belgian SNOMED Content
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Downloads](downloads.md)
+* [Background](background.md)
+* [Changes](changes.md)
+* [Spec](spec.md)
+
+## Resources
+
+### ValueSets
+
+* [Belgian Condition Codes (SNOMED CT)](ValueSet-be-condition-codes.md)
+
+### ImplementationGuides
+
+* [Pipeline Test IG - Belgian SNOMED Content](index.md)
+
+### Examples
+
+* [ExampleAllergyIntoleranceSulfonamide (AllergyIntolerance)](AllergyIntolerance-ExampleAllergyIntoleranceSulfonamide.md)
+* [ExampleAllergyIntoleranceSulfonamideFR (AllergyIntolerance)](AllergyIntolerance-ExampleAllergyIntoleranceSulfonamideFR.md)
+* [ExampleConditionAbdominalPain (Condition)](Condition-ExampleConditionAbdominalPain.md)
+* [ExampleConditionAbdominalPainFR (Condition)](Condition-ExampleConditionAbdominalPainFR.md)
+* [ExampleConditionAtrialSeptalDefect (Condition)](Condition-ExampleConditionAtrialSeptalDefect.md)
+* [ExampleConditionDiabetesFR (Condition)](Condition-ExampleConditionDiabetesFR.md)
+* [ExampleConditionHypertensionFR (Condition)](Condition-ExampleConditionHypertensionFR.md)
+* [ExampleBelgianPatient (Patient)](Patient-ExampleBelgianPatient.md)
+* [ExampleBelgianPatientFrench (Patient)](Patient-ExampleBelgianPatientFrench.md)

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "Patient",
+  "id" : "ExampleBelgianPatientFrench",
+  "language" : "fr-BE",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><p class=\"res-header-id\"><b>Generated Narrative: Patient ExampleBelgianPatientFrench</b></p><a name=\"ExampleBelgianPatientFrench\"> </a><a name=\"hcExampleBelgianPatientFrench\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Marie Lemaire  Female, DoB: 1992-08-23 ( https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin#98765432109)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Avenue Louise 54 Bruxelles 1050 BE </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{urn:ietf:bcp:47 fr-BE}\">Français (Belgique)</span> (preferred)</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin",
+    "value" : "98765432109"
+  }],
+  "name" : [{
+    "family" : "Lemaire",
+    "given" : ["Marie"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1992-08-23",
+  "address" : [{
+    "line" : ["Avenue Louise 54"],
+    "city" : "Bruxelles",
+    "postalCode" : "1050",
+    "country" : "BE"
+  }],
+  "communication" : [{
+    "language" : {
+      "coding" : [{
+        "system" : "urn:ietf:bcp:47",
+        "code" : "fr-BE",
+        "display" : "Français (Belgique)"
+      }]
+    },
+    "preferred" : true
+  }]
+}

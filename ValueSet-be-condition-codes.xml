@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="be-condition-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet be-condition-codes</b></p><a name="be-condition-codes"> </a><a name="hcbe-condition-codes"> </a><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/54586004">54586004</a></td><td>Lower abdominal pain</td></tr><tr><td><a href="http://snomed.info/id/91939003">91939003</a></td><td>Allergy to sulfonamide</td></tr><tr><td><a href="http://snomed.info/id/20262006">20262006</a></td><td>Ataxia</td></tr><tr><td><a href="http://snomed.info/id/38341003">38341003</a></td><td>High blood pressure</td></tr><tr><td><a href="http://snomed.info/id/73211009">73211009</a></td><td>Diabetes mellitus</td></tr><tr><td><a href="http://snomed.info/id/195967001">195967001</a></td><td>Asthma</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://hl7-be.github.io/pipeline-test/ValueSet/be-condition-codes"/>
+  <version value="0.1.0"/>
+  <name value="BelgianConditionCodesSNOMED"/>
+  <title value="Belgian Condition Codes (SNOMED CT)"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2026-03-09T20:01:59+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="A value set containing SNOMED CT codes commonly used in Belgian clinical practice for documenting patient conditions."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="54586004"/>
+        <display value="Lower abdominal pain"/>
+      </concept>
+      <concept>
+        <code value="91939003"/>
+        <display value="Allergy to sulfonamide"/>
+      </concept>
+      <concept>
+        <code value="20262006"/>
+        <display value="Ataxia"/>
+      </concept>
+      <concept>
+        <code value="38341003"/>
+        <display value="High blood pressure"/>
+      </concept>
+      <concept>
+        <code value="73211009"/>
+        <display value="Diabetes mellitus"/>
+      </concept>
+      <concept>
+        <code value="195967001"/>
+        <display value="Asthma"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

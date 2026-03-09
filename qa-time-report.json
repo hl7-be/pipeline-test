@@ -1,0 +1,479 @@
+{
+  "date" : "Mon, 09 Mar, 2026 20:01:59 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-pipeline-test.json",
+    "size" : 8853,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 154,
+      "length" : 442
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 155,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 155,
+      "length" : 102
+    },
+    {
+      "activity" : "validate",
+      "start" : 160,
+      "length" : 5880
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 165,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 169,
+      "length" : 87
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 73
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 191,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 200,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/AllergyIntolerance-ExampleAllergyIntoleranceSulfonamide.json",
+    "size" : 787,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 25
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 155,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 155,
+      "length" : 1398
+    },
+    {
+      "activity" : "validate",
+      "start" : 165,
+      "length" : 491
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 11
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 191,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/AllergyIntolerance-ExampleAllergyIntoleranceSulfonamideFR.json",
+    "size" : 1006,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 25
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 166,
+      "length" : 693
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-ExampleConditionAbdominalPain.json",
+    "size" : 889,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 23
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 155,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 167,
+      "length" : 479
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-ExampleConditionAbdominalPainFR.json",
+    "size" : 1091,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 34
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 155,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 167,
+      "length" : 491
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-ExampleConditionAtrialSeptalDefect.json",
+    "size" : 892,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 28
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 168,
+      "length" : 479
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-ExampleConditionDiabetesFR.json",
+    "size" : 1050,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 17
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 168,
+      "length" : 486
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-ExampleConditionHypertensionFR.json",
+    "size" : 1079,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 27
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 2
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 165,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 169,
+      "length" : 484
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-ExampleBelgianPatient.json",
+    "size" : 513,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 169,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-ExampleBelgianPatientFrench.json",
+    "size" : 808,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 6
+    },
+    {
+      "activity" : "load",
+      "start" : 154,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 155,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 42
+    },
+    {
+      "activity" : "validate",
+      "start" : 169,
+      "length" : 291
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-be-condition-codes.json",
+    "size" : 1161,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 154,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 154,
+      "length" : 11
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 155,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 156,
+      "length" : 2471
+    },
+    {
+      "activity" : "validate",
+      "start" : 159,
+      "length" : 598
+    },
+    {
+      "activity" : "generate1",
+      "start" : 170,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 171,
+      "length" : 1345
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 191,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/includes/menu.xml",
+    "size" : 919,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 173,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/includes/dmn.css",
+    "size" : 838
+  },
+  {
+    "name" : "/input/includes/dmn2html.xslt",
+    "size" : 6208
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 801
+  },
+  {
+    "name" : "/input/data/features.yml",
+    "size" : 5
+  },
+  {
+    "name" : "/input/pagecontent/downloads.xml",
+    "size" : 1287,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 173,
+      "length" : 26
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/changes.xml",
+    "size" : 457,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 173,
+      "length" : 22
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/spec.md",
+    "size" : 56
+  },
+  {
+    "name" : "/input/pagecontent/background.xml",
+    "size" : 271,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 173,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/index.xml",
+    "size" : 2485,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 173,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 46
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 5751,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 173,
+      "length" : 1
+    }]
+  }]
+}

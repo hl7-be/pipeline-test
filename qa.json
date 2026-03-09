@@ -1,0 +1,20 @@
+{
+  "url" : "https://hl7-be.github.io/pipeline-test/ImplementationGuide/pipeline-test",
+  "name" : "PipelineTestIG",
+  "title" : "Pipeline Test IG - Belgian SNOMED Content",
+  "description" : "A test Implementation Guide with Belgian SNOMED CT content for validating the publication pipeline.",
+  "ig-date" : "2024-01-15",
+  "status" : "active",
+  "package-id" : "pipeline-test",
+  "ig-ver" : "0.1.0",
+  "date" : "Mon, 09 Mar, 2026 20:01:59 +0000",
+  "dateISO8601" : "2026-03-09T20:01:59+00:00",
+  "errs" : 8,
+  "warnings" : 11,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1727210120
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <id value="ExampleAllergyIntoleranceSulfonamide"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: AllergyIntolerance ExampleAllergyIntoleranceSulfonamide</b></p><a name="ExampleAllergyIntoleranceSulfonamide"> </a><a name="hcExampleAllergyIntoleranceSulfonamide"> </a><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}">Confirmed</span></p><p><b>type</b>: Allergy</p><p><b>category</b>: Medication</p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 91939003}">Allergy to sulfonamide</span></p><p><b>patient</b>: <a href="Patient-ExampleBelgianPatient.html">Jean Dupont  Male, DoB: 1985-04-12 ( https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin#12345678901)</a></p><p><b>recordedDate</b>: 2023-06-20</p></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
+      <code value="confirmed"/>
+    </coding>
+  </verificationStatus>
+  <type value="allergy"/>
+  <category value="medication"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="91939003"/>
+      <display value="Allergy to sulfonamide"/>
+    </coding>
+  </code>
+  <patient>
+    <reference value="Patient/ExampleBelgianPatient"/>
+  </patient>
+  <recordedDate value="2023-06-20"/>
+</AllergyIntolerance>

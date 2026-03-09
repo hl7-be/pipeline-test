@@ -1,0 +1,11 @@
+{
+  "codeSystems" : [{
+    "url" : "https://hl7-be.github.io/pipeline-test/ValueSet/be-condition-codes",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "BelgianConditionCodesSNOMED",
+    "title" : "Belgian Condition Codes (SNOMED CT)",
+    "description" : "A value set containing SNOMED CT codes commonly used in Belgian clinical practice for documenting patient conditions.",
+    "systems" : ["http://snomed.info/sct"]
+  }]
+}

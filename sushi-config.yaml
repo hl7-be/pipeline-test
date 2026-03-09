@@ -7,16 +7,16 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example
-name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
-description: Example IG exercises many of the fields in a SUSHI configuration.
+id: pipeline-test
+canonical: https://costateixeira.github.io/pipeline-test/ImplementationGuide/pipeline-test
+url: https://costateixeira.github.io/pipeline-test
+name: PipelineTestIG
+title: "Pipeline Test IG - Belgian SNOMED Content"
+description: A test Implementation Guide with Belgian SNOMED CT content for validating the publication pipeline.
 status: active
 license: CC0-1.0
-date: 2020-02-26
-version: 1.0.0
+date: 2024-01-15
+version: 0.1.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here, but the current tooling 
@@ -52,19 +52,25 @@ contact:
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
 # code syntax can be used here.
 
-#jurisdiction: urn:iso:std:iso:3166#US "United States of America"
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
-
+jurisdiction: urn:iso:std:iso:3166#BE
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for `uri` and `version`.
-#dependencies:
-#  hl7.fhir.us.core: 3.1.0
-#  hl7.fhir.us.mcode:
-#    id: mcode
-#    uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#    version: 1.0.0
+dependencies:
+  hl7.fhir.be.core: 2.1.2
+  hl7.fhir.be.core-clinical: 1.1.0
+  hl7.fhir.be.allergy: 1.2.0
+  hl7.fhir.be.lab: 1.0.0
+  hl7.fhir.be.medication: 1.0.0
+  hl7.fhir.be.vaccination: 1.1.1
+  hl7.fhir.be.mycarenet: 2.1.2
+  hl7.fhir.be.public-health: 1.0.3
+  hl7.fhir.be.infsec: 1.2.0
+  hl7.fhir.be.patientwill: 1.0.0
+  hl7.fhir.be.nihdi-terminology: 1.0.0
+  hl7.fhir.be.patient-care: 1.0.0
+  hl7.fhir.be.pss: 1.1.0
 
 # The global property corresponds to the IG.global property, but it
 # uses the type as the YAML key and the profile as its value. Since
@@ -173,9 +179,14 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 # values, the value in the YAML should be a sequence/array. For a
 # partial list of allowed parameters see:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
-#parameters:
-#  excludettl: true
-#  validation: [allow-any-extensions, no-broken-links]
+parameters:
+  pin-canonicals: pin-multiples
+  shownav: 'true'
+  apply-contact: 'true'
+  apply-jurisdiction: 'true'
+  apply-publisher: 'true'
+  apply-version: 'true'
+  path-expansion-params: ../../Parameters-terminology-expansion.json
 
 # The FSHOnly flag indicates if only FSH resources should be exported.
 # If set to true, no IG related content will be generated.

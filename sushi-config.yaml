@@ -8,8 +8,8 @@
 
 
 id: pipeline-test
-canonical: https://costateixeira.github.io/pipeline-test/ImplementationGuide/pipeline-test
-url: https://costateixeira.github.io/pipeline-test
+canonical: https://hl7-be.github.io/pipeline-test
+url: https://hl7-be.github.io/pipeline-test/ImplementationGuide/pipeline-test
 name: PipelineTestIG
 title: "Pipeline Test IG - Belgian SNOMED Content"
 description: A test Implementation Guide with Belgian SNOMED CT content for validating the publication pipeline.
